@@ -7,8 +7,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { ThemeToggle } from "../components/ThemeToggle.tsx"
-
 
 export function Login() {
   const navigate = useNavigate()
@@ -34,9 +32,7 @@ export function Login() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-100 dark:bg-zinc-950">
-      <div className="absolute top-4 right-4">
-        <ThemeToggle />
-      </div>
+      
       <Card className="w-full max-w-sm">
         <CardHeader>
           <CardTitle className="text-2xl">

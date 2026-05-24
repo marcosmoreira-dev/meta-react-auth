@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
 
-import { Login } from "../pages/login"
+import { Login } from "../pages/login.tsx"
 import { Admin } from "../pages/admin"
 
 import { ProtectedRoute } from "../components/ProtectedRoute"
