@@ -44,20 +44,21 @@ src/
 │
 ├── contexts/
 │   └── auth-context.tsx
+│   └── theme-context.tsx
 │
 ├── hooks/
 │   └── useAuth.ts
 │
 ├── pages/
-│   ├── admin.tsx
-│   └── login.tsx
+│   ├── Admin.tsx
+│   └── Login.tsx
 │
 ├── providers/
-│   ├── auth-provider.tsx
-│   └── theme-provider.tsx
+│   ├── AuthProvider.tsx
+│   └── ThemeProvider.tsx
 │
 ├── routes/
-│   └── app-routes.tsx
+│   └── AppRoutes.tsx
 │
 ├── App.tsx
 └── main.tsx
