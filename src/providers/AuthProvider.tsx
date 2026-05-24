@@ -1,6 +1,6 @@
 import { type ReactNode, useState } from "react"
 
-import { AuthContext } from "../contexts/auth-context.tsx"
+import { AuthContext } from "../contexts/auth-context"
 
 type AuthProviderProps = {
   children: ReactNode
